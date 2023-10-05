@@ -111,11 +111,7 @@ article:nth-child(1) {
 
 /* Selecteer alle articles behalve de eerste en geef het een rechter groene border van 10px, een marge aan de onderkant van 100px en een padding aan de linkerkant van 100px;
 Gebruik hiervoor de combinatieselector aangrenzend (zie pagina 221) */
-article:nth-child(2),
-article:nth-child(3),
-article:nth-child(4),
-article:nth-child(5),
-article:nth-child(6) {
+article + article {
     border-right: 10px solid green;
     margin-bottom: 100px;
     padding-left: 100px;
